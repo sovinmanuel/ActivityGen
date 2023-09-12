@@ -1,0 +1,601 @@
+{
+    "img_resize_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "activity_names": [
+        {
+            "bbox": {
+                "x1": 385,
+                "y1": 252,
+                "x2": 551,
+                "y2": 300
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Button",
+                "Inner Text": " 1 Upload v"
+            },
+            "is_vism": false,
+            "activity_name": "U upload files",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1494,
+                "y1": 255,
+                "x2": 1624,
+                "y2": 303
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Checkbox",
+                "Inner Text": "Check checkbox Share O Link copied to \"Content.\" Allows editing."
+            },
+            "is_vism": false,
+            "activity_name": "Edit content",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1739,
+                "y1": 347,
+                "x2": 1752,
+                "y2": 361
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Cancel"
+            },
+            "is_vism": false,
+            "activity_name": "Stop file transfer",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1157,
+                "y1": 385,
+                "x2": 1762,
+                "y2": 430
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Button",
+                "Inner Text": " https://www.dropbox.com/scl/fo/5c93yc0rszg1vq51smxae/h?rlke"
+            },
+            "is_vism": false,
+            "activity_name": "Open file manager",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 24,
+                "y1": 129,
+                "x2": 54,
+                "y2": 157
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "::"
+            },
+            "is_vism": false,
+            "activity_name": "Save file",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 479,
+                "y1": 120,
+                "x2": 1379,
+                "y2": 168
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "EditText",
+                "Inner Text": " Q Search"
+            },
+            "is_vism": false,
+            "activity_name": "Enter search query",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1646,
+                "y1": 126,
+                "x2": 1676,
+                "y2": 156
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Info"
+            },
+            "is_vism": false,
+            "activity_name": "View file information",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1721,
+                "y1": 126,
+                "x2": 1730,
+                "y2": 135
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Edit"
+            },
+            "is_vism": false,
+            "activity_name": "Update file details",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1748,
+                "y1": 126,
+                "x2": 1784,
+                "y2": 162
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "RadioButton",
+                "Inner Text": ""
+            },
+            "is_vism": false,
+            "activity_name": "Set file location",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1700,
+                "y1": 132,
+                "x2": 1724,
+                "y2": 156
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Notification"
+            },
+            "is_vism": false,
+            "activity_name": "View notifications",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1727,
+                "y1": 209,
+                "x2": 1747,
+                "y2": 227
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Minus"
+            },
+            "is_vism": false,
+            "activity_name": "Remove file",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1864,
+                "y1": 206,
+                "x2": 1888,
+                "y2": 230
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Previous"
+            },
+            "is_vism": false,
+            "activity_name": "Go to previous page",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 575,
+                "y1": 252,
+                "x2": 738,
+                "y2": 300
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "RadioButton",
+                "Inner Text": " + Create v"
+            },
+            "is_vism": false,
+            "activity_name": "Add new file",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1434,
+                "y1": 255,
+                "x2": 1482,
+                "y2": 303
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Link"
+            },
+            "is_vism": false,
+            "activity_name": "Create hyperlink",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1626,
+                "y1": 255,
+                "x2": 1674,
+                "y2": 303
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Checkmark"
+            },
+            "is_vism": false,
+            "activity_name": "Mark as complete",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1695,
+                "y1": 255,
+                "x2": 1741,
+                "y2": 303
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Button",
+                "Inner Text": ""
+            },
+            "is_vism": false,
+            "activity_name": "Upload files",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1743,
+                "y1": 255,
+                "x2": 1791,
+                "y2": 303
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Button",
+                "Inner Text": ""
+            },
+            "is_vism": false,
+            "activity_name": "Upload files",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 986,
+                "y1": 252,
+                "x2": 1034,
+                "y2": 300
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Notification"
+            },
+            "is_vism": false,
+            "activity_name": "View notifications",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1864,
+                "y1": 303,
+                "x2": 1888,
+                "y2": 327
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Info"
+            },
+            "is_vism": false,
+            "activity_name": "View file information",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1864,
+                "y1": 375,
+                "x2": 1888,
+                "y2": 399
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Next"
+            },
+            "is_vism": false,
+            "activity_name": "Go to next page",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1863,
+                "y1": 447,
+                "x2": 1890,
+                "y2": 470
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Time"
+            },
+            "is_vism": false,
+            "activity_name": "Set reminder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1035,
+                "y1": 565,
+                "x2": 1111,
+                "y2": 632
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Icon",
+                "Inner Text": "Upload"
+            },
+            "is_vism": false,
+            "activity_name": "Add file to upload",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 824,
+                "y1": 904,
+                "x2": 1323,
+                "y2": 964
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Button",
+                "Inner Text": " Access this folder from your desktop"
+            },
+            "is_vism": false,
+            "activity_name": "Access files and folders",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 49,
+                "y1": 918,
+                "x2": 313,
+                "y2": 927
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Button",
+                "Inner Text": ""
+            },
+            "is_vism": false,
+            "activity_name": "Upload files",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 824,
+                "y1": 988,
+                "x2": 1323,
+                "y2": 1048
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Button",
+                "Inner Text": "  Import from Google Drive"
+            },
+            "is_vism": false,
+            "activity_name": "Import files from a different storage location",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 68,
+                "y1": 129,
+                "x2": 218,
+                "y2": 157
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Dropbox"
+            },
+            "is_vism": false,
+            "activity_name": "Add files to drop box",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1806,
+                "y1": 135,
+                "x2": 1896,
+                "y2": 157
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Upgrade"
+            },
+            "is_vism": false,
+            "activity_name": "Update plan",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 384,
+                "y1": 204,
+                "x2": 622,
+                "y2": 230
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Dropbox / Content"
+            },
+            "is_vism": false,
+            "activity_name": "View file and folder shares",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 43,
+                "y1": 220,
+                "x2": 123,
+                "y2": 255
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Home"
+            },
+            "is_vism": false,
+            "activity_name": "Go to home screen",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 10,
+                "y1": 276,
+                "x2": 136,
+                "y2": 310
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "V All files"
+            },
+            "is_vism": false,
+            "activity_name": "Open all files",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 45,
+                "y1": 337,
+                "x2": 131,
+                "y2": 372
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Photos"
+            },
+            "is_vism": false,
+            "activity_name": "Upload photos",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 48,
+                "y1": 401,
+                "x2": 176,
+                "y2": 429
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Signatures"
+            },
+            "is_vism": false,
+            "activity_name": "Enter signature",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 48,
+                "y1": 461,
+                "x2": 134,
+                "y2": 488
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Shared"
+            },
+            "is_vism": false,
+            "activity_name": "Share file with others",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 46,
+                "y1": 518,
+                "x2": 196,
+                "y2": 550
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "File requests"
+            },
+            "is_vism": false,
+            "activity_name": "Enter file request",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 50,
+                "y1": 584,
+                "x2": 192,
+                "y2": 606
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Deleted files"
+            },
+            "is_vism": false,
+            "activity_name": "Delete file",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 50,
+                "y1": 883,
+                "x2": 200,
+                "y2": 905
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Dropbox Basic"
+            },
+            "is_vism": false,
+            "activity_name": "View file permissions",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 48,
+                "y1": 1024,
+                "x2": 218,
+                "y2": 1050
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Share",
+                "Component Class": "Text",
+                "Inner Text": "Privacy and legal"
+            },
+            "is_vism": false,
+            "activity_name": "Explore privacy options",
+            "existing": "true"
+        }
+    ]
+}

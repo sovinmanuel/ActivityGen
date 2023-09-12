@@ -1,0 +1,22 @@
+CaseId,TimestampLocal,EventType,ActiveWindow,MousePositionX,MousePositionY,ScreenshotId,Activity,Enabled Activities
+1,08:51:33,Left click,Dropbox - Login,1518,149,1_login.png,Log in to your account,Log in to your account
+1,08:51:34,Left click,Dropbox - Login,923,681,2_email_enter.png,Enter email address,Enter email address; Continue with login
+1,08:51:35,Left click,Dropbox - Login,1087,801,3_email_continue.png,Continue with login,Enter email address; Continue with login
+1,08:51:37,Left click,Dropbox - Login,916,499,4_password_enter.png,Enter new password,Enter new password; Log in to your account
+1,08:51:39,Left click,Dropbox - Login,1137,645,5_password_continue.png,Log in to your account,Enter new password; Log in to your account
+1,08:51:41,Left click,Dropbox - Folder,664,687,6_create_folder_btn.png,Add new file,Add new file
+1,08:51:42,Left click,Dropbox - Folder,640,412,7_enter_foldername.png,Enter new folder name,Enter new folder name; Create new folder
+1,08:51:44,Left click,Dropbox - Folder,591,562,8_check_folder_option.png,Set up automated folders,Set up automated folders; Create new folder
+1,08:51:45,Left click,Dropbox - Folder,1319,716,9_submit_create_folder.png,Create new folder,Set up automated folders; Create new folder
+1,08:51:47,Left click,Dropbox - Upload,504,263,10_upload.png,Uplodify files,Add file to share; Uplodify files
+1,08:51:48,Left click,Dropbox - Share,1507,272,11_share_btn.png,Add file to share,Add file to share; Uplodify files
+1,08:51:49,Left click,Dropbox - Share,700,540,12_share_add_recipient.png,Enter new email address,Enter new email address; Uplodify files; Add file to share
+1,08:51:50,Left click,Dropbox - Share,1224,745,13_submit_share.png,Share files and folders,Add file to share; Share files and folders; Uplodify files
+1,08:51:51,Left click,Dropbox - Share,1473,279,14_copy_share_link.png,Create new link,Add file to share; Create new link; Uplodify files
+2,08:51:52,Left click,Dropbox - Folder,664,687,15_create_folder_btn.png,Add new file,Add new file
+2,08:51:53,Left click,Dropbox - Folder,640,412,16_enter_foldername.png,Enter new folder name,Enter new folder name; Create new folder
+2,08:51:55,Left click,Dropbox - Folder,591,562,17_check_folder_option.png,Set up automated folders,Set up automated folders; Create new folder
+2,08:51:56,Left click,Dropbox - Folder,1319,716,18_submit_create_folder.png,Create new folder,Set up automated folders; Create new folder
+2,08:51:57,Left click,Dropbox - Upload,504,263,19_upload.png,Uplodify files,Add file to share; Uplodify files
+2,08:51:58,Left click,Dropbox - Upload,504,263,20_upload.png,Uplodify files,Add file to share; Uplodify files
+2,08:51:59,Left click,Dropbox - Upload,504,263,21_upload.png,Uplodify files,Add file to share; Uplodify files

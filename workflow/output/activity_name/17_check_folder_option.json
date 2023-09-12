@@ -1,0 +1,633 @@
+{
+    "img_resize_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "activity_names": [
+        {
+            "bbox": {
+                "x1": 478,
+                "y1": 121,
+                "x2": 1378,
+                "y2": 169
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Button",
+                "Inner Text": " Q Search"
+            },
+            "is_vism": false,
+            "activity_name": "Search for files",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1645,
+                "y1": 127,
+                "x2": 1675,
+                "y2": 157
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Info"
+            },
+            "is_vism": false,
+            "activity_name": "View file information",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1720,
+                "y1": 127,
+                "x2": 1729,
+                "y2": 136
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Minus"
+            },
+            "is_vism": false,
+            "activity_name": "Remove file",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1747,
+                "y1": 127,
+                "x2": 1783,
+                "y2": 163
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Notification"
+            },
+            "is_vism": false,
+            "activity_name": "View notifications",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1699,
+                "y1": 133,
+                "x2": 1723,
+                "y2": 157
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Notification"
+            },
+            "is_vism": false,
+            "activity_name": "View notifications",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1863,
+                "y1": 207,
+                "x2": 1887,
+                "y2": 231
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Previous"
+            },
+            "is_vism": false,
+            "activity_name": "Go to previous folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1364,
+                "y1": 245,
+                "x2": 1382,
+                "y2": 263
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Cancel"
+            },
+            "is_vism": false,
+            "activity_name": "Abort file transfer",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 541,
+                "y1": 252,
+                "x2": 587,
+                "y2": 290
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Button",
+                "Inner Text": ""
+            },
+            "is_vism": false,
+            "activity_name": "Move to specific folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1863,
+                "y1": 304,
+                "x2": 1887,
+                "y2": 328
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Info"
+            },
+            "is_vism": false,
+            "activity_name": "View file information",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1863,
+                "y1": 376,
+                "x2": 1887,
+                "y2": 400
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Edit"
+            },
+            "is_vism": false,
+            "activity_name": "Modify folder content",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 545,
+                "y1": 387,
+                "x2": 1373,
+                "y2": 435
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "EditText",
+                "Inner Text": " Content"
+            },
+            "is_vism": false,
+            "activity_name": "Enter new content",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1862,
+                "y1": 448,
+                "x2": 1889,
+                "y2": 471
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Previous"
+            },
+            "is_vism": false,
+            "activity_name": "Go to previous folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1524,
+                "y1": 490,
+                "x2": 1681,
+                "y2": 537
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Button",
+                "Inner Text": " Upload files"
+            },
+            "is_vism": false,
+            "activity_name": "Upload new file",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 564,
+                "y1": 540,
+                "x2": 604,
+                "y2": 580
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Checkmark"
+            },
+            "is_vism": false,
+            "activity_name": "Mark as complete",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1726,
+                "y1": 635,
+                "x2": 1746,
+                "y2": 653
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Minus"
+            },
+            "is_vism": false,
+            "activity_name": "Remove file",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1817,
+                "y1": 673,
+                "x2": 1830,
+                "y2": 785
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Button",
+                "Inner Text": ""
+            },
+            "is_vism": false,
+            "activity_name": "Move to specific folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1147,
+                "y1": 705,
+                "x2": 1255,
+                "y2": 753
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "RadioButton",
+                "Inner Text": " Cancel"
+            },
+            "is_vism": false,
+            "activity_name": "Cancel file transfer",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1267,
+                "y1": 705,
+                "x2": 1373,
+                "y2": 753
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Button",
+                "Inner Text": " Create"
+            },
+            "is_vism": false,
+            "activity_name": "Create new folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1017,
+                "y1": 909,
+                "x2": 1159,
+                "y2": 1033
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Icon",
+                "Inner Text": "Upload"
+            },
+            "is_vism": false,
+            "activity_name": "upload file",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 48,
+                "y1": 919,
+                "x2": 312,
+                "y2": 928
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "RadioButton",
+                "Inner Text": ""
+            },
+            "is_vism": false,
+            "activity_name": "Add new folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 570,
+                "y1": 545,
+                "x2": 599,
+                "y2": 574
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Checkbox",
+                "Inner Text": "Check checkboxSet up this folder to automatically handle tasks like organizing your\ncontent and converting files. You will set up your automation after we\ncreate the folder."
+            },
+            "is_vism": false,
+            "activity_name": "Set up automatic file conversion",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 68,
+                "y1": 129,
+                "x2": 214,
+                "y2": 157
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Dropbox"
+            },
+            "is_vism": false,
+            "activity_name": "Add folder to dropbox",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 1803,
+                "y1": 131,
+                "x2": 1899,
+                "y2": 163
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Upgrade"
+            },
+            "is_vism": false,
+            "activity_name": "Update app version",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 46,
+                "y1": 224,
+                "x2": 122,
+                "y2": 252
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Home"
+            },
+            "is_vism": false,
+            "activity_name": "Go to home screen",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 408,
+                "y1": 224,
+                "x2": 504,
+                "y2": 246
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Hi Sovin"
+            },
+            "is_vism": false,
+            "activity_name": "Add new folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 610,
+                "y1": 260,
+                "x2": 776,
+                "y2": 286
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Create folder"
+            },
+            "is_vism": false,
+            "activity_name": "Add new folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 43,
+                "y1": 277,
+                "x2": 137,
+                "y2": 310
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": " All files"
+            },
+            "is_vism": false,
+            "activity_name": "View all files in folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 46,
+                "y1": 341,
+                "x2": 132,
+                "y2": 369
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Photos"
+            },
+            "is_vism": false,
+            "activity_name": "View photos",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 540,
+                "y1": 353,
+                "x2": 602,
+                "y2": 381
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Name"
+            },
+            "is_vism": false,
+            "activity_name": "Enter new folder name",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 48,
+                "y1": 401,
+                "x2": 176,
+                "y2": 429
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Signatures"
+            },
+            "is_vism": false,
+            "activity_name": "Enter signature",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 46,
+                "y1": 461,
+                "x2": 134,
+                "y2": 488
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Shared"
+            },
+            "is_vism": false,
+            "activity_name": "Share file with team",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 542,
+                "y1": 461,
+                "x2": 752,
+                "y2": 486
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Add automation New"
+            },
+            "is_vism": false,
+            "activity_name": "Customize folder settings",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 448,
+                "y1": 504,
+                "x2": 506,
+                "y2": 526
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Instal"
+            },
+            "is_vism": false,
+            "activity_name": "Install application",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 46,
+                "y1": 518,
+                "x2": 196,
+                "y2": 552
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "File requests"
+            },
+            "is_vism": false,
+            "activity_name": "Enter file request details",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 50,
+                "y1": 584,
+                "x2": 192,
+                "y2": 606
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Deleted files"
+            },
+            "is_vism": false,
+            "activity_name": "Delete file",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 386,
+                "y1": 631,
+                "x2": 492,
+                "y2": 653
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Dropbox"
+            },
+            "is_vism": false,
+            "activity_name": "Add folder to dropbox",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 404,
+                "y1": 689,
+                "x2": 504,
+                "y2": 717
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "1 Uploac"
+            },
+            "is_vism": false,
+            "activity_name": "Add new folder",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 48,
+                "y1": 883,
+                "x2": 202,
+                "y2": 907
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Dropbox Basic"
+            },
+            "is_vism": false,
+            "activity_name": "View folder details",
+            "existing": "true"
+        },
+        {
+            "bbox": {
+                "x1": 48,
+                "y1": 1024,
+                "x2": 218,
+                "y2": 1052
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Folder",
+                "Component Class": "Text",
+                "Inner Text": "Privacy and legal"
+            },
+            "is_vism": false,
+            "activity_name": "Explore privacy options",
+            "existing": "true"
+        }
+    ]
+}

@@ -1,0 +1,499 @@
+{
+    "img_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Files - Dropbox",
+            "x1": 12,
+            "y1": 14,
+            "x2": 122,
+            "y2": 36,
+            "width": 110,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "D",
+            "x1": 42,
+            "y1": 52,
+            "x2": 68,
+            "y2": 66,
+            "width": 26,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "dropbox.com/",
+            "x1": 330,
+            "y1": 48,
+            "x2": 430,
+            "y2": 68,
+            "width": 100,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "8",
+            "x1": 1458,
+            "y1": 54,
+            "x2": 1470,
+            "y2": 64,
+            "width": 12,
+            "height": 10
+        },
+        {
+            "id": 0,
+            "content": "2",
+            "x1": 1714,
+            "y1": 54,
+            "x2": 1726,
+            "y2": 64,
+            "width": 12,
+            "height": 10
+        },
+        {
+            "id": 0,
+            "content": "o VPN",
+            "x1": 1830,
+            "y1": 52,
+            "x2": 1866,
+            "y2": 66,
+            "width": 36,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "[2] GCal",
+            "x1": 14,
+            "y1": 79,
+            "x2": 68,
+            "y2": 99,
+            "width": 54,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "M Gmai",
+            "x1": 78,
+            "y1": 83,
+            "x2": 132,
+            "y2": 97,
+            "width": 54,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "N Notior",
+            "x1": 266,
+            "y1": 83,
+            "x2": 322,
+            "y2": 97,
+            "width": 56,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "IDEALO",
+            "x1": 1426,
+            "y1": 79,
+            "x2": 1480,
+            "y2": 99,
+            "width": 54,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": ":",
+            "x1": 24,
+            "y1": 131,
+            "x2": 60,
+            "y2": 157,
+            "width": 36,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "Dropbox",
+            "x1": 68,
+            "y1": 129,
+            "x2": 214,
+            "y2": 157,
+            "width": 146,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Q Search",
+            "x1": 496,
+            "y1": 131,
+            "x2": 598,
+            "y2": 159,
+            "width": 102,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Upgrade",
+            "x1": 1803,
+            "y1": 131,
+            "x2": 1899,
+            "y2": 163,
+            "width": 96,
+            "height": 32
+        },
+        {
+            "id": 0,
+            "content": "Home",
+            "x1": 46,
+            "y1": 224,
+            "x2": 122,
+            "y2": 252,
+            "width": 76,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Hi Sovin",
+            "x1": 408,
+            "y1": 224,
+            "x2": 504,
+            "y2": 246,
+            "width": 96,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "Create folder",
+            "x1": 610,
+            "y1": 260,
+            "x2": 776,
+            "y2": 286,
+            "width": 166,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "V",
+            "x1": 16,
+            "y1": 286,
+            "x2": 42,
+            "y2": 300,
+            "width": 26,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": " All files",
+            "x1": 43,
+            "y1": 277,
+            "x2": 137,
+            "y2": 310,
+            "width": 94,
+            "height": 33
+        },
+        {
+            "id": 0,
+            "content": "0",
+            "x1": 1862,
+            "y1": 302,
+            "x2": 1890,
+            "y2": 332,
+            "width": 28,
+            "height": 30
+        },
+        {
+            "id": 0,
+            "content": "Photos",
+            "x1": 46,
+            "y1": 341,
+            "x2": 132,
+            "y2": 369,
+            "width": 86,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Install 1",
+            "x1": 430,
+            "y1": 338,
+            "x2": 504,
+            "y2": 365,
+            "width": 74,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "Upload files and photos",
+            "x1": 1524,
+            "y1": 339,
+            "x2": 1762,
+            "y2": 365,
+            "width": 238,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "Name",
+            "x1": 540,
+            "y1": 353,
+            "x2": 602,
+            "y2": 381,
+            "width": 62,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "desktop",
+            "x1": 425,
+            "y1": 367,
+            "x2": 507,
+            "y2": 400,
+            "width": 82,
+            "height": 33
+        },
+        {
+            "id": 0,
+            "content": "so you can edit, share,",
+            "x1": 1522,
+            "y1": 373,
+            "x2": 1744,
+            "y2": 397,
+            "width": 222,
+            "height": 24
+        },
+        {
+            "id": 0,
+            "content": "Signatures",
+            "x1": 48,
+            "y1": 401,
+            "x2": 176,
+            "y2": 429,
+            "width": 128,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": " offline :",
+            "x1": 428,
+            "y1": 403,
+            "x2": 506,
+            "y2": 431,
+            "width": 78,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Content",
+            "x1": 558,
+            "y1": 399,
+            "x2": 648,
+            "y2": 427,
+            "width": 90,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "and collect feedback.",
+            "x1": 1520,
+            "y1": 405,
+            "x2": 1736,
+            "y2": 431,
+            "width": 216,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "C",
+            "x1": 1858,
+            "y1": 445,
+            "x2": 1892,
+            "y2": 472,
+            "width": 34,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "Shared",
+            "x1": 46,
+            "y1": 461,
+            "x2": 134,
+            "y2": 488,
+            "width": 88,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "Add automation New",
+            "x1": 542,
+            "y1": 461,
+            "x2": 752,
+            "y2": 486,
+            "width": 210,
+            "height": 25
+        },
+        {
+            "id": 0,
+            "content": "Instal",
+            "x1": 448,
+            "y1": 504,
+            "x2": 506,
+            "y2": 526,
+            "width": 58,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "Upload files",
+            "x1": 1540,
+            "y1": 500,
+            "x2": 1670,
+            "y2": 528,
+            "width": 130,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "File requests",
+            "x1": 46,
+            "y1": 518,
+            "x2": 196,
+            "y2": 552,
+            "width": 150,
+            "height": 34
+        },
+        {
+            "id": 0,
+            "content": "Set up this folder to automatically handle tasks like organizing your",
+            "x1": 610,
+            "y1": 522,
+            "x2": 1284,
+            "y2": 548,
+            "width": 674,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "content and converting files. You will set up your automation after we",
+            "x1": 612,
+            "y1": 552,
+            "x2": 1300,
+            "y2": 572,
+            "width": 688,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "Deleted files",
+            "x1": 50,
+            "y1": 584,
+            "x2": 192,
+            "y2": 606,
+            "width": 142,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "create the folder.",
+            "x1": 610,
+            "y1": 576,
+            "x2": 780,
+            "y2": 602,
+            "width": 170,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "Dropbox",
+            "x1": 386,
+            "y1": 631,
+            "x2": 492,
+            "y2": 653,
+            "width": 106,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "v",
+            "x1": 1724,
+            "y1": 631,
+            "x2": 1780,
+            "y2": 657,
+            "width": 56,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "1 Uploac",
+            "x1": 404,
+            "y1": 689,
+            "x2": 504,
+            "y2": 717,
+            "width": 100,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Only you have access",
+            "x1": 1590,
+            "y1": 681,
+            "x2": 1778,
+            "y2": 707,
+            "width": 188,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "Cancel",
+            "x1": 1164,
+            "y1": 717,
+            "x2": 1244,
+            "y2": 744,
+            "width": 80,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "Create",
+            "x1": 1281,
+            "y1": 714,
+            "x2": 1359,
+            "y2": 749,
+            "width": 78,
+            "height": 35
+        },
+        {
+            "id": 0,
+            "content": "Dropbox Basic",
+            "x1": 48,
+            "y1": 883,
+            "x2": 202,
+            "y2": 907,
+            "width": 154,
+            "height": 24
+        },
+        {
+            "id": 0,
+            "content": "0 bytes of 2 GB used ",
+            "x1": 44,
+            "y1": 935,
+            "x2": 266,
+            "y2": 967,
+            "width": 222,
+            "height": 32
+        },
+        {
+            "id": 0,
+            "content": "Privacy and legal",
+            "x1": 48,
+            "y1": 1024,
+            "x2": 218,
+            "y2": 1052,
+            "width": 170,
+            "height": 28
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cu118"
+verify_ssl = true
+name = "downloadpytorch"
+
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypitunatsinghuaedu"
+
+[[source]]
+url = "https://pypi.celonis.cloud"
+verify_ssl = true
+name = "pypicelonis"
+
+[packages]
+torch = {version = "*", index = "downloadpytorch"}
+torchvision = {version = "*", index = "downloadpytorch"}
+opencv-python = "*"
+pandas = "*"
+numpy = "*"
+paddlepaddle = {version = "2.4.2", index = "pypitunatsinghuaedu"}
+paddleocr = {version = "2.6.1.3", index = "pypitunatsinghuaedu"}
+pytesseract = "*"
+onnxruntime = "*"
+setuptools = "==58.3.0"
+ipykernel = "*"
+matplotlib = "*"
+pillow = "*"
+datasets = "*"
+pyyaml = "*"
+psutil = "*"
+pycelonis = {version = "*", index = "pypicelonis"}
+python-dotenv = "*"
+requests = "*"
+chromadb = "*"
+pm4py = "*"
+configparser = "*"
+scikit-learn = "*"
+fastapi = "*"
+uvicorn = "*"
+keybert = "*"
+faiss-gpu = "*"
+peewee = "*"
+imutils = "*"
+transformers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

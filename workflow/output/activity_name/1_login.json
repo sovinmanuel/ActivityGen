@@ -1,0 +1,233 @@
+{
+    "img_resize_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "activity_names": [
+        {
+            "bbox": {
+                "x1": 765,
+                "y1": 120,
+                "x2": 1135,
+                "y2": 167
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Button",
+                "Inner Text": "  Please sign in or register to access this page."
+            },
+            "is_vism": false,
+            "activity_name": "Sign in to your account",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1574,
+                "y1": 114,
+                "x2": 1822,
+                "y2": 174
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Button",
+                "Inner Text": " Get started"
+            },
+            "is_vism": false,
+            "activity_name": "Start using cloud storage",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 14,
+                "y1": 125,
+                "x2": 59,
+                "y2": 163
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Button",
+                "Inner Text": ""
+            },
+            "is_vism": false,
+            "activity_name": "Upload files",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1902,
+                "y1": 125,
+                "x2": 1915,
+                "y2": 212
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Button",
+                "Inner Text": ""
+            },
+            "is_vism": false,
+            "activity_name": "Upload files",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1265,
+                "y1": 132,
+                "x2": 1289,
+                "y2": 156
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Icon",
+                "Inner Text": "Globe"
+            },
+            "is_vism": false,
+            "activity_name": "View global files",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 791,
+                "y1": 576,
+                "x2": 1109,
+                "y2": 683
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Button",
+                "Inner Text": " Find your plan ->"
+            },
+            "is_vism": false,
+            "activity_name": "Set up a new plan",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 595,
+                "y1": 731,
+                "x2": 1305,
+                "y2": 803
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "EditText",
+                "Inner Text": " Enter your email address Sign up for free"
+            },
+            "is_vism": false,
+            "activity_name": "Create new account",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 438,
+                "y1": 911,
+                "x2": 1461,
+                "y2": 1077
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Icon",
+                "Inner Text": "Profile"
+            },
+            "is_vism": false,
+            "activity_name": "View user profile",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 597,
+                "y1": 732,
+                "x2": 1044,
+                "y2": 801
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Button",
+                "Inner Text": " Enter your email address"
+            },
+            "is_vism": false,
+            "activity_name": "Enter email for login",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1049,
+                "y1": 734,
+                "x2": 1302,
+                "y2": 799
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Button",
+                "Inner Text": " Sign up for free"
+            },
+            "is_vism": false,
+            "activity_name": "Sign in to your account",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1046,
+                "y1": 731,
+                "x2": 1304,
+                "y2": 802
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Button",
+                "Inner Text": " Sign up for free"
+            },
+            "is_vism": false,
+            "activity_name": "Sign in to your account",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 92,
+                "y1": 123,
+                "x2": 238,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Text",
+                "Inner Text": "Dropbox"
+            },
+            "is_vism": false,
+            "activity_name": "Connect to a file server",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1342,
+                "y1": 133,
+                "x2": 1436,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Text",
+                "Inner Text": "Sign up"
+            },
+            "is_vism": false,
+            "activity_name": "Create new account",
+            "existing": "false"
+        },
+        {
+            "bbox": {
+                "x1": 1478,
+                "y1": 133,
+                "x2": 1548,
+                "y2": 161
+            },
+            "prompt_info": {
+                "Context (App Name)": "Dropbox - Login",
+                "Component Class": "Text",
+                "Inner Text": "Login"
+            },
+            "is_vism": false,
+            "activity_name": "Log in to your account",
+            "existing": "false"
+        }
+    ]
+}

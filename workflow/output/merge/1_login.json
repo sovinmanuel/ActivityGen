@@ -1,0 +1,403 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Button",
+            "height": 47,
+            "width": 370,
+            "position": {
+                "x1": 765,
+                "y1": 120,
+                "x2": 1135,
+                "y2": 167
+            },
+            "children": [
+                12
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 1,
+            "class": "Button",
+            "height": 60,
+            "width": 248,
+            "position": {
+                "x1": 1574,
+                "y1": 114,
+                "x2": 1822,
+                "y2": 174
+            },
+            "children": [
+                15
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 2,
+            "class": "Button",
+            "height": 38,
+            "width": 45,
+            "position": {
+                "x1": 14,
+                "y1": 125,
+                "x2": 59,
+                "y2": 163
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 3,
+            "class": "Button",
+            "height": 87,
+            "width": 13,
+            "position": {
+                "x1": 1902,
+                "y1": 125,
+                "x2": 1915,
+                "y2": 212
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 4,
+            "class": "Icon-Globe",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 1265,
+                "y1": 132,
+                "x2": 1289,
+                "y2": 156
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 5,
+            "class": "Button",
+            "height": 107,
+            "width": 318,
+            "position": {
+                "x1": 791,
+                "y1": 576,
+                "x2": 1109,
+                "y2": 683
+            },
+            "children": [
+                19,
+                20
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 6,
+            "class": "EditText",
+            "height": 72,
+            "width": 710,
+            "position": {
+                "x1": 595,
+                "y1": 731,
+                "x2": 1305,
+                "y2": 803
+            },
+            "children": [
+                8,
+                9,
+                10,
+                21,
+                22
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 7,
+            "class": "Icon-Profile",
+            "height": 166,
+            "width": 1023,
+            "position": {
+                "x1": 438,
+                "y1": 911,
+                "x2": 1461,
+                "y2": 1077
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 8,
+            "class": "Button",
+            "height": 69,
+            "width": 447,
+            "position": {
+                "x1": 597,
+                "y1": 732,
+                "x2": 1044,
+                "y2": 801
+            },
+            "children": [
+                21
+            ],
+            "parent": 6,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 9,
+            "class": "Button",
+            "height": 65,
+            "width": 253,
+            "position": {
+                "x1": 1049,
+                "y1": 734,
+                "x2": 1302,
+                "y2": 799
+            },
+            "children": [
+                22
+            ],
+            "parent": 10,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 10,
+            "class": "Button",
+            "height": 71,
+            "width": 258,
+            "position": {
+                "x1": 1046,
+                "y1": 731,
+                "x2": 1304,
+                "y2": 802
+            },
+            "children": [
+                9,
+                22
+            ],
+            "parent": 6,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 38,
+            "width": 146,
+            "position": {
+                "x1": 92,
+                "y1": 123,
+                "x2": 238,
+                "y2": 161
+            },
+            "text_content": "Dropbox",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 30,
+            "width": 324,
+            "position": {
+                "x1": 786,
+                "y1": 129,
+                "x2": 1110,
+                "y2": 159
+            },
+            "text_content": " Please sign in or register to access this page.",
+            "parent": 0,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 28,
+            "width": 94,
+            "position": {
+                "x1": 1342,
+                "y1": 133,
+                "x2": 1436,
+                "y2": 161
+            },
+            "text_content": "Sign up",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 14,
+            "class": "Text",
+            "height": 28,
+            "width": 70,
+            "position": {
+                "x1": 1478,
+                "y1": 133,
+                "x2": 1548,
+                "y2": 161
+            },
+            "text_content": "Login",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 15,
+            "class": "Text",
+            "height": 22,
+            "width": 134,
+            "position": {
+                "x1": 1596,
+                "y1": 135,
+                "x2": 1730,
+                "y2": 157
+            },
+            "text_content": "Get started",
+            "parent": 1,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 16,
+            "class": "Text",
+            "height": 57,
+            "width": 1138,
+            "position": {
+                "x1": 382,
+                "y1": 296,
+                "x2": 1520,
+                "y2": 353
+            },
+            "text_content": "Join over 7oo million registered",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 17,
+            "class": "Text",
+            "height": 50,
+            "width": 904,
+            "position": {
+                "x1": 498,
+                "y1": 373,
+                "x2": 1402,
+                "y2": 423
+            },
+            "text_content": "users who trust Dropbox",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 18,
+            "class": "Text",
+            "height": 61,
+            "width": 1138,
+            "position": {
+                "x1": 382,
+                "y1": 465,
+                "x2": 1520,
+                "y2": 526
+            },
+            "text_content": "Easy to use, reliable, private, and secure. It's no wonder Dropbox is the choice for storing and sharing\nyour most important files",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 19,
+            "class": "Text",
+            "height": 30,
+            "width": 174,
+            "position": {
+                "x1": 828,
+                "y1": 615,
+                "x2": 1002,
+                "y2": 645
+            },
+            "text_content": "Find your plan",
+            "parent": 5,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 20,
+            "class": "Text",
+            "height": 24,
+            "width": 28,
+            "position": {
+                "x1": 1038,
+                "y1": 617,
+                "x2": 1066,
+                "y2": 641
+            },
+            "text_content": "->",
+            "parent": 5,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 21,
+            "class": "Text",
+            "height": 26,
+            "width": 284,
+            "position": {
+                "x1": 608,
+                "y1": 756,
+                "x2": 892,
+                "y2": 782
+            },
+            "text_content": "Enter your email address",
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 22,
+            "class": "Text",
+            "height": 28,
+            "width": 182,
+            "position": {
+                "x1": 1086,
+                "y1": 754,
+                "x2": 1268,
+                "y2": 782
+            },
+            "text_content": "Sign up for free",
+            "parent": 10,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        }
+    ],
+    "img_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "raw_texts": "Dropbox;  Please sign in or register to access this page.; Sign up; Login; Get started; Join over 7oo million registered; users who trust Dropbox; Easy to use, reliable, private, and secure. It's no wonder Dropbox is the choice for storing and sharing\nyour most important files; Find your plan; ->; Enter your email address; Sign up for free"
+}

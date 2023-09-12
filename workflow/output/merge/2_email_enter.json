@@ -1,0 +1,239 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "Button",
+            "height": 38,
+            "width": 45,
+            "position": {
+                "x1": 15,
+                "y1": 126,
+                "x2": 60,
+                "y2": 164
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 1,
+            "class": "Icon-Bookmark",
+            "height": 478,
+            "width": 13,
+            "position": {
+                "x1": 1903,
+                "y1": 126,
+                "x2": 1916,
+                "y2": 604
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 2,
+            "class": "Icon-Globe",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 1847,
+                "y1": 133,
+                "x2": 1871,
+                "y2": 157
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 3,
+            "class": "Button",
+            "height": 60,
+            "width": 525,
+            "position": {
+                "x1": 689,
+                "y1": 356,
+                "x2": 1214,
+                "y2": 416
+            },
+            "children": [
+                9
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 4,
+            "class": "Button",
+            "height": 68,
+            "width": 525,
+            "position": {
+                "x1": 689,
+                "y1": 455,
+                "x2": 1214,
+                "y2": 523
+            },
+            "children": [
+                10
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 5,
+            "class": "EditText",
+            "height": 72,
+            "width": 525,
+            "position": {
+                "x1": 689,
+                "y1": 640,
+                "x2": 1214,
+                "y2": 712
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 6,
+            "class": "Button",
+            "height": 83,
+            "width": 525,
+            "position": {
+                "x1": 689,
+                "y1": 772,
+                "x2": 1214,
+                "y2": 855
+            },
+            "children": [
+                13
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 7,
+            "class": "Text",
+            "height": 34,
+            "width": 146,
+            "position": {
+                "x1": 94,
+                "y1": 127,
+                "x2": 240,
+                "y2": 161
+            },
+            "text_content": "Dropbox",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 8,
+            "class": "Text",
+            "height": 34,
+            "width": 258,
+            "position": {
+                "x1": 686,
+                "y1": 290,
+                "x2": 944,
+                "y2": 324
+            },
+            "text_content": "Log in or sign up",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 9,
+            "class": "Text",
+            "height": 30,
+            "width": 224,
+            "position": {
+                "x1": 858,
+                "y1": 371,
+                "x2": 1082,
+                "y2": 401
+            },
+            "text_content": "Continue with Google",
+            "parent": 3,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 10,
+            "class": "Text",
+            "height": 30,
+            "width": 208,
+            "position": {
+                "x1": 868,
+                "y1": 474,
+                "x2": 1076,
+                "y2": 504
+            },
+            "text_content": "Continue with Apple",
+            "parent": 4,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 11,
+            "class": "Text",
+            "height": 26,
+            "width": 30,
+            "position": {
+                "x1": 938,
+                "y1": 554,
+                "x2": 968,
+                "y2": 580
+            },
+            "text_content": "or",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 12,
+            "class": "Text",
+            "height": 23,
+            "width": 52,
+            "position": {
+                "x1": 688,
+                "y1": 606,
+                "x2": 740,
+                "y2": 629
+            },
+            "text_content": "Email",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 13,
+            "class": "Text",
+            "height": 36,
+            "width": 118,
+            "position": {
+                "x1": 893,
+                "y1": 798,
+                "x2": 1011,
+                "y2": 834
+            },
+            "text_content": "Continue",
+            "parent": 6,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        }
+    ],
+    "img_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "raw_texts": "Dropbox; Log in or sign up; Continue with Google; Continue with Apple; or; Email; Continue"
+}

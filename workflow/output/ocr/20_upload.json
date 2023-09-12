@@ -1,0 +1,519 @@
+{
+    "img_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Content - Dropbox",
+            "x1": 14,
+            "y1": 10,
+            "x2": 144,
+            "y2": 32,
+            "width": 130,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": " dropbox.com/l",
+            "x1": 310,
+            "y1": 44,
+            "x2": 436,
+            "y2": 66,
+            "width": 126,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "me/Conten",
+            "x1": 450,
+            "y1": 46,
+            "x2": 520,
+            "y2": 66,
+            "width": 70,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "o VPN",
+            "x1": 1832,
+            "y1": 46,
+            "x2": 1874,
+            "y2": 62,
+            "width": 42,
+            "height": 16
+        },
+        {
+            "id": 0,
+            "content": "M Gmail",
+            "x1": 84,
+            "y1": 79,
+            "x2": 138,
+            "y2": 93,
+            "width": 54,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "RWTH ",
+            "x1": 190,
+            "y1": 79,
+            "x2": 250,
+            "y2": 93,
+            "width": 60,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "N Notion",
+            "x1": 268,
+            "y1": 79,
+            "x2": 330,
+            "y2": 93,
+            "width": 62,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "W RemNote",
+            "x1": 346,
+            "y1": 79,
+            "x2": 418,
+            "y2": 93,
+            "width": 72,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "C Celonis",
+            "x1": 436,
+            "y1": 79,
+            "x2": 496,
+            "y2": 93,
+            "width": 60,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": " Celonis",
+            "x1": 532,
+            "y1": 79,
+            "x2": 578,
+            "y2": 93,
+            "width": 46,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "G3 GU",
+            "x1": 590,
+            "y1": 75,
+            "x2": 636,
+            "y2": 97,
+            "width": 46,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "O YouTube",
+            "x1": 648,
+            "y1": 75,
+            "x2": 724,
+            "y2": 95,
+            "width": 76,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "Netflix",
+            "x1": 756,
+            "y1": 77,
+            "x2": 796,
+            "y2": 93,
+            "width": 40,
+            "height": 16
+        },
+        {
+            "id": 0,
+            "content": "S D+",
+            "x1": 820,
+            "y1": 77,
+            "x2": 850,
+            "y2": 93,
+            "width": 30,
+            "height": 16
+        },
+        {
+            "id": 0,
+            "content": "O GitHub",
+            "x1": 863,
+            "y1": 71,
+            "x2": 931,
+            "y2": 98,
+            "width": 68,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "O WA",
+            "x1": 1028,
+            "y1": 79,
+            "x2": 1074,
+            "y2": 93,
+            "width": 46,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "XTwitte",
+            "x1": 1092,
+            "y1": 79,
+            "x2": 1144,
+            "y2": 93,
+            "width": 52,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "Twitch",
+            "x1": 1228,
+            "y1": 77,
+            "x2": 1274,
+            "y2": 93,
+            "width": 46,
+            "height": 16
+        },
+        {
+            "id": 0,
+            "content": "HB",
+            "x1": 1304,
+            "y1": 79,
+            "x2": 1330,
+            "y2": 93,
+            "width": 26,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "T3 Proxer",
+            "x1": 1346,
+            "y1": 79,
+            "x2": 1402,
+            "y2": 93,
+            "width": 56,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "i. IDEALO",
+            "x1": 1420,
+            "y1": 79,
+            "x2": 1482,
+            "y2": 93,
+            "width": 62,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "Veitere Lesezeicher",
+            "x1": 1804,
+            "y1": 79,
+            "x2": 1904,
+            "y2": 93,
+            "width": 100,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": ":::",
+            "x1": 26,
+            "y1": 127,
+            "x2": 58,
+            "y2": 155,
+            "width": 32,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Dropbox",
+            "x1": 70,
+            "y1": 127,
+            "x2": 222,
+            "y2": 155,
+            "width": 152,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Q Search",
+            "x1": 498,
+            "y1": 129,
+            "x2": 604,
+            "y2": 157,
+            "width": 106,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "4",
+            "x1": 1702,
+            "y1": 127,
+            "x2": 1732,
+            "y2": 153,
+            "width": 30,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "Upgrade",
+            "x1": 1808,
+            "y1": 129,
+            "x2": 1900,
+            "y2": 157,
+            "width": 92,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Dropbox / Content",
+            "x1": 386,
+            "y1": 200,
+            "x2": 626,
+            "y2": 230,
+            "width": 240,
+            "height": 30
+        },
+        {
+            "id": 0,
+            "content": "E v",
+            "x1": 1726,
+            "y1": 201,
+            "x2": 1782,
+            "y2": 230,
+            "width": 56,
+            "height": 29
+        },
+        {
+            "id": 0,
+            "content": "Home",
+            "x1": 45,
+            "y1": 218,
+            "x2": 125,
+            "y2": 251,
+            "width": 80,
+            "height": 33
+        },
+        {
+            "id": 0,
+            "content": " Upload",
+            "x1": 404,
+            "y1": 258,
+            "x2": 522,
+            "y2": 292,
+            "width": 118,
+            "height": 34
+        },
+        {
+            "id": 0,
+            "content": "+ Create v",
+            "x1": 594,
+            "y1": 260,
+            "x2": 724,
+            "y2": 288,
+            "width": 130,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": " Organize v",
+            "x1": 804,
+            "y1": 258,
+            "x2": 962,
+            "y2": 294,
+            "width": 158,
+            "height": 36
+        },
+        {
+            "id": 0,
+            "content": " Share",
+            "x1": 1408,
+            "y1": 260,
+            "x2": 1510,
+            "y2": 292,
+            "width": 102,
+            "height": 32
+        },
+        {
+            "id": 0,
+            "content": "Only you have access",
+            "x1": 1592,
+            "y1": 262,
+            "x2": 1782,
+            "y2": 288,
+            "width": 190,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "V All files",
+            "x1": 13,
+            "y1": 273,
+            "x2": 141,
+            "y2": 310,
+            "width": 128,
+            "height": 37
+        },
+        {
+            "id": 0,
+            "content": "Content",
+            "x1": 104,
+            "y1": 328,
+            "x2": 180,
+            "y2": 349,
+            "width": 76,
+            "height": 21
+        },
+        {
+            "id": 0,
+            "content": "Photos",
+            "x1": 47,
+            "y1": 380,
+            "x2": 135,
+            "y2": 418,
+            "width": 88,
+            "height": 38
+        },
+        {
+            "id": 0,
+            "content": "C",
+            "x1": 1856,
+            "y1": 437,
+            "x2": 1902,
+            "y2": 476,
+            "width": 46,
+            "height": 39
+        },
+        {
+            "id": 0,
+            "content": "Signatures",
+            "x1": 52,
+            "y1": 447,
+            "x2": 178,
+            "y2": 474,
+            "width": 126,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "Shared",
+            "x1": 49,
+            "y1": 502,
+            "x2": 139,
+            "y2": 537,
+            "width": 90,
+            "height": 35
+        },
+        {
+            "id": 0,
+            "content": "File requests",
+            "x1": 52,
+            "y1": 566,
+            "x2": 200,
+            "y2": 594,
+            "width": 148,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Deleted files",
+            "x1": 50,
+            "y1": 623,
+            "x2": 198,
+            "y2": 655,
+            "width": 148,
+            "height": 32
+        },
+        {
+            "id": 0,
+            "content": "Drop files here to upload,",
+            "x1": 948,
+            "y1": 657,
+            "x2": 1206,
+            "y2": 683,
+            "width": 258,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "or use the 'Upload' button",
+            "x1": 948,
+            "y1": 693,
+            "x2": 1208,
+            "y2": 719,
+            "width": 260,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "More ways to add content",
+            "x1": 826,
+            "y1": 844,
+            "x2": 1096,
+            "y2": 870,
+            "width": 270,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "Dropbox Basic",
+            "x1": 54,
+            "y1": 881,
+            "x2": 204,
+            "y2": 903,
+            "width": 150,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": " Access this folder from your desktop",
+            "x1": 884,
+            "y1": 917,
+            "x2": 1260,
+            "y2": 947,
+            "width": 376,
+            "height": 30
+        },
+        {
+            "id": 0,
+            "content": "0 bytes of 2 GB used O",
+            "x1": 48,
+            "y1": 933,
+            "x2": 270,
+            "y2": 961,
+            "width": 222,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": " Import from Google Drive",
+            "x1": 850,
+            "y1": 1005,
+            "x2": 1154,
+            "y2": 1030,
+            "width": 304,
+            "height": 25
+        },
+        {
+            "id": 0,
+            "content": "Privacy and legal",
+            "x1": 52,
+            "y1": 1022,
+            "x2": 222,
+            "y2": 1048,
+            "width": 170,
+            "height": 26
+        }
+    ]
+}

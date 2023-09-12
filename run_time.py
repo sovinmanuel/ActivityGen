@@ -1,0 +1,256 @@
+import glob
+import json
+import os
+import time
+import seaborn as sns
+import matplotlib.pyplot as plt
+from os.path import join as pjoin
+from typing import List
+import cv2
+import numpy as np
+from paddleocr import PaddleOCR
+from activitygen.activity_name_generator.nlg_template_generator import (
+    NLGTemplateActivityNameGenerator,
+)
+from activitygen.compo_classifier.resnet_classifier import ResNetClassifier
+from activitygen.compo_classifier.sim_matcher import SimMatcher
+from activitygen.compo_detector.tm_detector import TemplateMatcher
+from activitygen.config.parameter_config import CONFIG_PARSER, load_config
+
+# Load configuration
+load_config("./configs/time.cfg")
+# load_config("./configs/default.cfg")
+from activitygen.text_detector.detector import TextDetector
+from activitygen.compo_detector.detector import CompoDetector
+from activitygen.compo_detector.table_detector import TableDetector
+from activitygen.compo_classifier.classifier import ClassifierPipeline
+from activitygen.merge import merger
+from activitygen.activity_name_generator.generator import ActivityNameGenerator
+from transformers import (
+    CLIPModel,
+    CLIPProcessor,
+    AutoTokenizer,
+    AutoModelForCausalLM,
+    AutoModelForSeq2SeqLM,
+)
+
+# import wandb
+
+# # Initialize wandb
+# wandb.init(project="rico_test100_time_and_hardware")
+
+
+# Function to resize image height based on the longest edge
+def resize_height_by_longest_edge(img_path, resize_length=800):
+    org = cv2.imread(img_path)
+    height, width = org.shape[:2]
+    if height > width:
+        return resize_length
+    else:
+        return int(resize_length * (height / width))
+
+
+# Function to perform batch inference and calculate time statistics
+def run_batch_inference_and_time(
+    input_path_folder,
+    appnames,
+    output_root="data/output/mobile",
+    sim_path="./templates/sc_templates",
+    num_images=100,  # Set the number of images to generate
+):
+    # Create a boxplot using Seaborn
+    sns.set(style="whitegrid")  # Set the style of the plot
+    plt.figure(figsize=(10, 6))  # Set the size of the plot
+    # plt.title("Time Statistics for Image Generation")
+    plt.ylabel("Time (seconds)")
+
+    os.makedirs(output_root, exist_ok=True)
+
+    print("[Batch Init started]")
+    # Initialize components based on configuration settings
+    if CONFIG_PARSER.getboolean("STEPS", "enable_ocr"):
+        textDetector = TextDetector(
+            output_root,
+            PaddleOCR(
+                use_angle_cls=False,
+                lang="en",
+                enable_mkldnn=True,
+                show_log=False,
+            ),
+        )
+        os.makedirs(pjoin(output_root, "ocr"), exist_ok=True)
+
+    if CONFIG_PARSER.getboolean("STEPS", "enable_compo"):
+        compoDetector = CompoDetector(output_root)
+
+    template_matcher = None
+    if CONFIG_PARSER.getboolean("STEPS", "enable_tm"):
+        template_matcher = TemplateMatcher(output_root, "./templates/tm_templates/")
+
+    clip_model_name = "laion/CLIP-ViT-L-14-DataComp.XL-s13B-b90K"
+    clip_model = CLIPModel.from_pretrained(clip_model_name)
+    clip_processor = CLIPProcessor.from_pretrained(clip_model_name)
+    resnet_classifier = ResNetClassifier("./models/classifier_model.pth")
+    sim_matcher = None
+    if CONFIG_PARSER.getboolean("STEPS", "enable_merge") and CONFIG_PARSER.getboolean(
+        "STEPS", "enable_vism"
+    ):
+        sim_matcher = SimMatcher(
+            "./models/vism_model.pth",
+            sim_path,
+        )
+    classifier = None
+    if CONFIG_PARSER.getboolean("STEPS", "enable_classifier"):
+        classifier = ClassifierPipeline(
+            clip_model, clip_processor, resnet_classifier, sim_matcher
+        )
+    os.makedirs(pjoin(output_root, "merge"), exist_ok=True)
+
+    # Initialize activity name generator based on configuration settings
+    if CONFIG_PARSER.getboolean("STEPS", "enable_merge") and CONFIG_PARSER.getboolean(
+        "STEPS", "enable_activity_name_generation"
+    ):
+        if CONFIG_PARSER.get("MAIN", "activity_generation_mode") == "nlgtemplate":
+            activityNameGen = NLGTemplateActivityNameGenerator()
+        elif CONFIG_PARSER.get("MAIN", "activity_generation_mode") == "extended":
+            model_id = "nivos/flan-t5-base-activity-surrounding-summarize"
+            lm_tokenizer = AutoTokenizer.from_pretrained(model_id)
+            lm_model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
+            activityNameGen = ActivityNameGenerator(lm_model, lm_tokenizer)
+        else:
+            model_id = "nivos/pythia-410m-deduped-finetuned-final-activity-text-10epoch"
+            lm_tokenizer = AutoTokenizer.from_pretrained(model_id, padding_side="left")
+            lm_model = AutoModelForCausalLM.from_pretrained(model_id)
+            activityNameGen = ActivityNameGenerator(lm_model, lm_tokenizer)
+
+    # Create directories for output paths
+    activity_path_root = pjoin(output_root, "activity_name")
+    os.makedirs(activity_path_root, exist_ok=True)
+    activity_names_all = []
+
+    start_total = time.perf_counter()
+
+    data = json.load(open("./instances_test.json", "r"))
+    # Process each input image
+    input_imgs = [
+        pjoin(input_path_folder, img["file_name"].split("/")[-1])
+        for img in data["images"]
+    ]
+    input_imgs = sorted(
+        input_imgs, key=lambda x: int(x.split("/")[-1][:-4])
+    )  # sorted by index
+    total_time = 0
+    times = []
+
+    for index, input_path_img in enumerate(input_imgs[:num_images]):
+        start = time.perf_counter()
+        print(f"[Generation started for {index}. image: {input_path_img}]")
+        appname = ""
+        if isinstance(appnames, str):
+            appname = appnames
+        elif isinstance(appnames, list):
+            appname = appnames[index]
+
+        # Resize image
+        resized_height = resize_height_by_longest_edge(
+            input_path_img,
+            resize_length=CONFIG_PARSER.getint("MAIN", "resize_length"),
+        )
+
+        # Perform text detection using OCR
+        if CONFIG_PARSER.getboolean("STEPS", "enable_ocr"):
+            textDetector.detect_text_paddle(input_path_img, show=False)
+
+        img_name = input_path_img.split("/")[-1][:-4]
+
+        # Perform component detection
+        if CONFIG_PARSER.getboolean("STEPS", "enable_compo"):
+            compoDetector.detect_compos(
+                input_path_img, resize_by_height=resized_height, show=False
+            )
+
+        table_path = None
+        # Add table detection if needed
+        # if table_detector and "excel" in appname.lower():
+        #     table_detector.detect_tables(
+        #         input_path_img, resize_height=resized_height, threshold_proba=0.7
+        #     )
+        #     table_path = pjoin(output_root, "tables", str(img_name) + ".json")
+
+        template_matcher_path = None
+        if template_matcher:
+            template_matcher_path = pjoin(
+                output_root, "template_matcher", str(img_name) + ".json"
+            )
+            template_matcher.detect_template_matches(
+                input_path_img, template_matcher_path, resized_height=resized_height
+            )
+
+        activity_names = []
+
+        compo_path = pjoin(output_root, "compo", str(img_name) + ".json")
+        ocr_path = pjoin(output_root, "ocr", str(img_name) + ".json")
+
+        # Merge components, OCR, and other information
+        if (
+            CONFIG_PARSER.getboolean("STEPS", "enable_ocr")
+            and CONFIG_PARSER.getboolean("STEPS", "enable_compo")
+            and CONFIG_PARSER.getboolean("STEPS", "enable_merge")
+        ):
+            img_resize_shape, resized_image, data = merger.merge(
+                input_path_img,
+                compo_path,
+                ocr_path,
+                table_path,
+                tm_path=template_matcher_path,
+                merge_root=pjoin(output_root, "merge"),
+                classifier=classifier,
+                show=False,
+            )
+
+        # Generate activity names
+        if CONFIG_PARSER.getboolean(
+            "STEPS", "enable_merge"
+        ) and CONFIG_PARSER.getboolean("STEPS", "enable_activity_name_generation"):
+            activity_names = activityNameGen.generate_activity_names(
+                appname,
+                data,
+                activity_path_root,
+                img_name,
+                resized_image,
+                img_resize_shape,
+            )
+            activity_names_all.append(activity_names)
+        elapsed_time = time.perf_counter() - start
+        times.append(elapsed_time)
+        total_time += elapsed_time
+        print(f"[Generation completed for: {input_path_img}]")
+        print("[Generation Completed in %.3f s]" % (elapsed_time))
+
+    end_total = time.perf_counter()
+    total_generation_time = end_total - start_total
+    time_per_image = total_generation_time / num_images
+    print(f"Total generation time: {total_generation_time:.3f} seconds")
+    print(f"Time per image: {time_per_image:.3f} seconds")
+    print("Time statistics:")
+    print(f"Min time: {np.min(times):.3f} seconds")
+    print(f"Max time: {np.max(times):.3f} seconds")
+    print(f"Mean time: {np.mean(times):.3f} seconds")
+    print(f"Standard deviation: {np.std(times):.3f} seconds")
+
+    times_array = np.array(times)  # Convert times to a numpy array
+    np.save("generation_times.npy", times_array)
+    sns.boxplot(y=times_array)  # Create the boxplot
+
+    plt.savefig("time_boxplot.pdf", format="pdf", bbox_inches="tight")
+
+    return activity_names_all
+
+
+if __name__ == "__main__":
+    run_batch_inference_and_time(
+        "../../../_Datasets/RICO/combined/",
+        "Mobile App",
+        "./time_data_output/",
+    )
+    # wandb.finish()

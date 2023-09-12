@@ -1,0 +1,818 @@
+{
+    "compos": [
+        {
+            "id": 0,
+            "class": "EditText",
+            "height": 48,
+            "width": 900,
+            "position": {
+                "x1": 479,
+                "y1": 120,
+                "x2": 1379,
+                "y2": 168
+            },
+            "children": [
+                27
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 1,
+            "class": "Icon-Info",
+            "height": 30,
+            "width": 30,
+            "position": {
+                "x1": 1646,
+                "y1": 126,
+                "x2": 1676,
+                "y2": 156
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 2,
+            "class": "Icon-Edit",
+            "height": 9,
+            "width": 9,
+            "position": {
+                "x1": 1721,
+                "y1": 126,
+                "x2": 1730,
+                "y2": 135
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 3,
+            "class": "RadioButton",
+            "height": 36,
+            "width": 36,
+            "position": {
+                "x1": 1748,
+                "y1": 126,
+                "x2": 1784,
+                "y2": 162
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 4,
+            "class": "Icon-Notification",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 1700,
+                "y1": 132,
+                "x2": 1724,
+                "y2": 156
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 5,
+            "class": "Icon-Minus",
+            "height": 18,
+            "width": 20,
+            "position": {
+                "x1": 1727,
+                "y1": 209,
+                "x2": 1747,
+                "y2": 227
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 6,
+            "class": "Icon-Previous",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 1864,
+                "y1": 206,
+                "x2": 1888,
+                "y2": 230
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 7,
+            "class": "Button",
+            "height": 48,
+            "width": 166,
+            "position": {
+                "x1": 385,
+                "y1": 252,
+                "x2": 551,
+                "y2": 300
+            },
+            "children": [
+                31
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 8,
+            "class": "RadioButton",
+            "height": 48,
+            "width": 163,
+            "position": {
+                "x1": 575,
+                "y1": 252,
+                "x2": 738,
+                "y2": 300
+            },
+            "children": [
+                32
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 9,
+            "class": "Button",
+            "height": 48,
+            "width": 187,
+            "position": {
+                "x1": 787,
+                "y1": 252,
+                "x2": 974,
+                "y2": 300
+            },
+            "children": [
+                33
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 10,
+            "class": "Icon-Link",
+            "height": 48,
+            "width": 48,
+            "position": {
+                "x1": 1434,
+                "y1": 255,
+                "x2": 1482,
+                "y2": 303
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 11,
+            "class": "Checkbox",
+            "height": 48,
+            "width": 130,
+            "position": {
+                "x1": 1494,
+                "y1": 255,
+                "x2": 1624,
+                "y2": 303
+            },
+            "children": [
+                34
+            ],
+            "checkbox_state": "checked",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 12,
+            "class": "Icon-Checkmark",
+            "height": 48,
+            "width": 48,
+            "position": {
+                "x1": 1626,
+                "y1": 255,
+                "x2": 1674,
+                "y2": 303
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 13,
+            "class": "Button",
+            "height": 48,
+            "width": 46,
+            "position": {
+                "x1": 1695,
+                "y1": 255,
+                "x2": 1741,
+                "y2": 303
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 14,
+            "class": "Button",
+            "height": 48,
+            "width": 48,
+            "position": {
+                "x1": 1743,
+                "y1": 255,
+                "x2": 1791,
+                "y2": 303
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 15,
+            "class": "Icon-Notification",
+            "height": 48,
+            "width": 48,
+            "position": {
+                "x1": 986,
+                "y1": 252,
+                "x2": 1034,
+                "y2": 300
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 16,
+            "class": "Icon-Info",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 1864,
+                "y1": 303,
+                "x2": 1888,
+                "y2": 327
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 17,
+            "class": "Icon-Cancel",
+            "height": 14,
+            "width": 13,
+            "position": {
+                "x1": 1739,
+                "y1": 347,
+                "x2": 1752,
+                "y2": 361
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 18,
+            "class": "Button",
+            "height": 45,
+            "width": 605,
+            "position": {
+                "x1": 1157,
+                "y1": 385,
+                "x2": 1762,
+                "y2": 430
+            },
+            "children": [
+                39
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 19,
+            "class": "Icon-Next",
+            "height": 24,
+            "width": 24,
+            "position": {
+                "x1": 1864,
+                "y1": 375,
+                "x2": 1888,
+                "y2": 399
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 20,
+            "class": "Icon-Time",
+            "height": 23,
+            "width": 27,
+            "position": {
+                "x1": 1863,
+                "y1": 447,
+                "x2": 1890,
+                "y2": 470
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 21,
+            "class": "Icon-Upload",
+            "height": 67,
+            "width": 76,
+            "position": {
+                "x1": 1035,
+                "y1": 565,
+                "x2": 1111,
+                "y2": 632
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 22,
+            "class": "Button",
+            "height": 60,
+            "width": 499,
+            "position": {
+                "x1": 824,
+                "y1": 904,
+                "x2": 1323,
+                "y2": 964
+            },
+            "children": [
+                46
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 23,
+            "class": "Button",
+            "height": 9,
+            "width": 264,
+            "position": {
+                "x1": 49,
+                "y1": 918,
+                "x2": 313,
+                "y2": 927
+            },
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 24,
+            "class": "Button",
+            "height": 60,
+            "width": 499,
+            "position": {
+                "x1": 824,
+                "y1": 988,
+                "x2": 1323,
+                "y2": 1048
+            },
+            "children": [
+                48
+            ],
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 25,
+            "class": "Text",
+            "height": 28,
+            "width": 30,
+            "position": {
+                "x1": 24,
+                "y1": 129,
+                "x2": 54,
+                "y2": 157
+            },
+            "text_content": "::",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 26,
+            "class": "Text",
+            "height": 28,
+            "width": 150,
+            "position": {
+                "x1": 68,
+                "y1": 129,
+                "x2": 218,
+                "y2": 157
+            },
+            "text_content": "Dropbox",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 27,
+            "class": "Text",
+            "height": 37,
+            "width": 108,
+            "position": {
+                "x1": 493,
+                "y1": 126,
+                "x2": 601,
+                "y2": 163
+            },
+            "text_content": "Q Search",
+            "parent": 0,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 28,
+            "class": "Text",
+            "height": 22,
+            "width": 90,
+            "position": {
+                "x1": 1806,
+                "y1": 135,
+                "x2": 1896,
+                "y2": 157
+            },
+            "text_content": "Upgrade",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 29,
+            "class": "Text",
+            "height": 26,
+            "width": 238,
+            "position": {
+                "x1": 384,
+                "y1": 204,
+                "x2": 622,
+                "y2": 230
+            },
+            "text_content": "Dropbox / Content",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 30,
+            "class": "Text",
+            "height": 35,
+            "width": 80,
+            "position": {
+                "x1": 43,
+                "y1": 220,
+                "x2": 123,
+                "y2": 255
+            },
+            "text_content": "Home",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 31,
+            "class": "Text",
+            "height": 34,
+            "width": 138,
+            "position": {
+                "x1": 402,
+                "y1": 260,
+                "x2": 540,
+                "y2": 294
+            },
+            "text_content": "1 Upload v",
+            "parent": 7,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 32,
+            "class": "Text",
+            "height": 34,
+            "width": 136,
+            "position": {
+                "x1": 588,
+                "y1": 260,
+                "x2": 724,
+                "y2": 294
+            },
+            "text_content": "+ Create v",
+            "parent": 8,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 33,
+            "class": "Text",
+            "height": 28,
+            "width": 136,
+            "position": {
+                "x1": 802,
+                "y1": 262,
+                "x2": 938,
+                "y2": 290
+            },
+            "text_content": " Organize",
+            "parent": 9,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 34,
+            "class": "Text",
+            "height": 28,
+            "width": 100,
+            "position": {
+                "x1": 1512,
+                "y1": 266,
+                "x2": 1612,
+                "y2": 294
+            },
+            "text_content": " Share",
+            "parent": 11,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 35,
+            "class": "Text",
+            "height": 34,
+            "width": 126,
+            "position": {
+                "x1": 10,
+                "y1": 276,
+                "x2": 136,
+                "y2": 310
+            },
+            "text_content": "V All files",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 36,
+            "class": "Text",
+            "height": 35,
+            "width": 86,
+            "position": {
+                "x1": 45,
+                "y1": 337,
+                "x2": 131,
+                "y2": 372
+            },
+            "text_content": "Photos",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 37,
+            "class": "Text",
+            "height": 30,
+            "width": 452,
+            "position": {
+                "x1": 1158,
+                "y1": 339,
+                "x2": 1610,
+                "y2": 369
+            },
+            "text_content": "O Link copied to \"Content.\" Allows editing.",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 38,
+            "class": "Text",
+            "height": 28,
+            "width": 128,
+            "position": {
+                "x1": 48,
+                "y1": 401,
+                "x2": 176,
+                "y2": 429
+            },
+            "text_content": "Signatures",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 39,
+            "class": "Text",
+            "height": 28,
+            "width": 572,
+            "position": {
+                "x1": 1172,
+                "y1": 395,
+                "x2": 1744,
+                "y2": 423
+            },
+            "text_content": "https://www.dropbox.com/scl/fo/5c93yc0rszg1vq51smxae/h?rlke",
+            "parent": 18,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 40,
+            "class": "Text",
+            "height": 27,
+            "width": 86,
+            "position": {
+                "x1": 48,
+                "y1": 461,
+                "x2": 134,
+                "y2": 488
+            },
+            "text_content": "Shared",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 41,
+            "class": "Text",
+            "height": 32,
+            "width": 150,
+            "position": {
+                "x1": 46,
+                "y1": 518,
+                "x2": 196,
+                "y2": 550
+            },
+            "text_content": "File requests",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 42,
+            "class": "Text",
+            "height": 22,
+            "width": 142,
+            "position": {
+                "x1": 50,
+                "y1": 584,
+                "x2": 192,
+                "y2": 606
+            },
+            "text_content": "Deleted files",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 43,
+            "class": "Text",
+            "height": 60,
+            "width": 260,
+            "position": {
+                "x1": 944,
+                "y1": 661,
+                "x2": 1204,
+                "y2": 721
+            },
+            "text_content": "Drop files here to upload,\nor use the 'Upload' button",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 44,
+            "class": "Text",
+            "height": 26,
+            "width": 270,
+            "position": {
+                "x1": 824,
+                "y1": 846,
+                "x2": 1094,
+                "y2": 872
+            },
+            "text_content": "More ways to add content",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 45,
+            "class": "Text",
+            "height": 22,
+            "width": 150,
+            "position": {
+                "x1": 50,
+                "y1": 883,
+                "x2": 200,
+                "y2": 905
+            },
+            "text_content": "Dropbox Basic",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 46,
+            "class": "Text",
+            "height": 30,
+            "width": 414,
+            "position": {
+                "x1": 844,
+                "y1": 919,
+                "x2": 1258,
+                "y2": 949
+            },
+            "text_content": "Access this folder from your desktop",
+            "parent": 22,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 47,
+            "class": "Text",
+            "height": 30,
+            "width": 222,
+            "position": {
+                "x1": 44,
+                "y1": 935,
+                "x2": 266,
+                "y2": 965
+            },
+            "text_content": "0 bytes of 2 GB used O",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 48,
+            "class": "Text",
+            "height": 25,
+            "width": 306,
+            "position": {
+                "x1": 846,
+                "y1": 1007,
+                "x2": 1152,
+                "y2": 1032
+            },
+            "text_content": " Import from Google Drive",
+            "parent": 24,
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        },
+        {
+            "id": 49,
+            "class": "Text",
+            "height": 26,
+            "width": 170,
+            "position": {
+                "x1": 48,
+                "y1": 1024,
+                "x2": 218,
+                "y2": 1050
+            },
+            "text_content": "Privacy and legal",
+            "negative_template": false,
+            "is_custom": false,
+            "is_vism": false
+        }
+    ],
+    "img_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "raw_texts": "::; Dropbox; Q Search; Upgrade; Dropbox / Content; Home; 1 Upload v; + Create v;  Organize;  Share; V All files; Photos; O Link copied to \"Content.\" Allows editing.; Signatures; https://www.dropbox.com/scl/fo/5c93yc0rszg1vq51smxae/h?rlke; Shared; File requests; Deleted files; Drop files here to upload,\nor use the 'Upload' button; More ways to add content; Dropbox Basic; Access this folder from your desktop; 0 bytes of 2 GB used O;  Import from Google Drive; Privacy and legal"
+}

@@ -1,0 +1,419 @@
+{
+    "img_shape": [
+        1080,
+        1920,
+        3
+    ],
+    "texts": [
+        {
+            "id": 0,
+            "content": "Dropbox.com",
+            "x1": 10,
+            "y1": 14,
+            "x2": 116,
+            "y2": 34,
+            "width": 106,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "D",
+            "x1": 40,
+            "y1": 50,
+            "x2": 68,
+            "y2": 66,
+            "width": 28,
+            "height": 16
+        },
+        {
+            "id": 0,
+            "content": " dropbox.com",
+            "x1": 318,
+            "y1": 48,
+            "x2": 424,
+            "y2": 67,
+            "width": 106,
+            "height": 19
+        },
+        {
+            "id": 0,
+            "content": "6",
+            "x1": 1423,
+            "y1": 45,
+            "x2": 1477,
+            "y2": 72,
+            "width": 54,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "O VPN",
+            "x1": 1826,
+            "y1": 46,
+            "x2": 1870,
+            "y2": 68,
+            "width": 44,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "21 GCal",
+            "x1": 12,
+            "y1": 79,
+            "x2": 68,
+            "y2": 99,
+            "width": 56,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "M Gmai",
+            "x1": 78,
+            "y1": 81,
+            "x2": 132,
+            "y2": 95,
+            "width": 54,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": " RWTH aj",
+            "x1": 180,
+            "y1": 77,
+            "x2": 246,
+            "y2": 97,
+            "width": 66,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "NNotior",
+            "x1": 264,
+            "y1": 81,
+            "x2": 322,
+            "y2": 95,
+            "width": 58,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "k RemNote",
+            "x1": 346,
+            "y1": 77,
+            "x2": 414,
+            "y2": 97,
+            "width": 68,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "O Celonis",
+            "x1": 427,
+            "y1": 73,
+            "x2": 493,
+            "y2": 100,
+            "width": 66,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "Celonis",
+            "x1": 524,
+            "y1": 79,
+            "x2": 570,
+            "y2": 95,
+            "width": 46,
+            "height": 16
+        },
+        {
+            "id": 0,
+            "content": "Q GU",
+            "x1": 585,
+            "y1": 73,
+            "x2": 635,
+            "y2": 100,
+            "width": 50,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "YouTube",
+            "x1": 658,
+            "y1": 77,
+            "x2": 716,
+            "y2": 97,
+            "width": 58,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "Netflix",
+            "x1": 754,
+            "y1": 79,
+            "x2": 794,
+            "y2": 95,
+            "width": 40,
+            "height": 16
+        },
+        {
+            "id": 0,
+            "content": "D+",
+            "x1": 820,
+            "y1": 81,
+            "x2": 850,
+            "y2": 95,
+            "width": 30,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "O GitHub",
+            "x1": 857,
+            "y1": 73,
+            "x2": 931,
+            "y2": 100,
+            "width": 74,
+            "height": 27
+        },
+        {
+            "id": 0,
+            "content": "Amazon",
+            "x1": 956,
+            "y1": 81,
+            "x2": 1010,
+            "y2": 95,
+            "width": 54,
+            "height": 14
+        },
+        {
+            "id": 0,
+            "content": "OWA",
+            "x1": 1024,
+            "y1": 81,
+            "x2": 1066,
+            "y2": 97,
+            "width": 42,
+            "height": 16
+        },
+        {
+            "id": 0,
+            "content": "X Twitte",
+            "x1": 1078,
+            "y1": 79,
+            "x2": 1140,
+            "y2": 99,
+            "width": 62,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "Twitch",
+            "x1": 1210,
+            "y1": 77,
+            "x2": 1268,
+            "y2": 97,
+            "width": 58,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "T Proxer",
+            "x1": 1338,
+            "y1": 79,
+            "x2": 1398,
+            "y2": 99,
+            "width": 60,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "i. IDEALO",
+            "x1": 1414,
+            "y1": 77,
+            "x2": 1480,
+            "y2": 99,
+            "width": 66,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "Wizzle",
+            "x1": 1508,
+            "y1": 81,
+            "x2": 1550,
+            "y2": 97,
+            "width": 42,
+            "height": 16
+        },
+        {
+            "id": 0,
+            "content": "OAka",
+            "x1": 1570,
+            "y1": 79,
+            "x2": 1624,
+            "y2": 99,
+            "width": 54,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "Pomodor",
+            "x1": 1662,
+            "y1": 81,
+            "x2": 1712,
+            "y2": 99,
+            "width": 50,
+            "height": 18
+        },
+        {
+            "id": 0,
+            "content": "WNeitere Lesezeichen",
+            "x1": 1798,
+            "y1": 79,
+            "x2": 1902,
+            "y2": 99,
+            "width": 104,
+            "height": 20
+        },
+        {
+            "id": 0,
+            "content": "Dropbox",
+            "x1": 92,
+            "y1": 123,
+            "x2": 238,
+            "y2": 161,
+            "width": 146,
+            "height": 38
+        },
+        {
+            "id": 0,
+            "content": " Please sign in or register to access this page.",
+            "x1": 786,
+            "y1": 129,
+            "x2": 1110,
+            "y2": 159,
+            "width": 324,
+            "height": 30
+        },
+        {
+            "id": 0,
+            "content": "?",
+            "x1": 1264,
+            "y1": 129,
+            "x2": 1292,
+            "y2": 159,
+            "width": 28,
+            "height": 30
+        },
+        {
+            "id": 0,
+            "content": "Sign up",
+            "x1": 1342,
+            "y1": 133,
+            "x2": 1436,
+            "y2": 161,
+            "width": 94,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Login",
+            "x1": 1478,
+            "y1": 133,
+            "x2": 1548,
+            "y2": 161,
+            "width": 70,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Get started",
+            "x1": 1596,
+            "y1": 135,
+            "x2": 1730,
+            "y2": 157,
+            "width": 134,
+            "height": 22
+        },
+        {
+            "id": 0,
+            "content": "Join over 7oo million registered",
+            "x1": 382,
+            "y1": 296,
+            "x2": 1520,
+            "y2": 353,
+            "width": 1138,
+            "height": 57
+        },
+        {
+            "id": 0,
+            "content": "users who trust Dropbox",
+            "x1": 498,
+            "y1": 373,
+            "x2": 1402,
+            "y2": 423,
+            "width": 904,
+            "height": 50
+        },
+        {
+            "id": 0,
+            "content": "Easy to use, reliable, private, and secure. It's no wonder Dropbox is the choice for storing and sharing",
+            "x1": 382,
+            "y1": 465,
+            "x2": 1520,
+            "y2": 490,
+            "width": 1138,
+            "height": 25
+        },
+        {
+            "id": 0,
+            "content": "your most important files",
+            "x1": 802,
+            "y1": 498,
+            "x2": 1094,
+            "y2": 526,
+            "width": 292,
+            "height": 28
+        },
+        {
+            "id": 0,
+            "content": "Find your plan",
+            "x1": 828,
+            "y1": 615,
+            "x2": 1002,
+            "y2": 645,
+            "width": 174,
+            "height": 30
+        },
+        {
+            "id": 0,
+            "content": "->",
+            "x1": 1038,
+            "y1": 617,
+            "x2": 1066,
+            "y2": 641,
+            "width": 28,
+            "height": 24
+        },
+        {
+            "id": 0,
+            "content": "Enter your email address",
+            "x1": 608,
+            "y1": 756,
+            "x2": 892,
+            "y2": 782,
+            "width": 284,
+            "height": 26
+        },
+        {
+            "id": 0,
+            "content": "Sign up for free",
+            "x1": 1086,
+            "y1": 754,
+            "x2": 1268,
+            "y2": 782,
+            "width": 182,
+            "height": 28
+        }
+    ]
+}
